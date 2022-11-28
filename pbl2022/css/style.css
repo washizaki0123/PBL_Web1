@@ -1,0 +1,144 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #555;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*
+HEADER====================================================
+*/
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  width:90%;
+}
+
+header {
+  background: rgb(248, 173, 61);
+  /*固定表示のための記述*/
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+
+.main-nav {
+  display: flex;
+}
+
+.main-nav li {
+  text-align: center;
+  list-style: none;
+}
+
+.main-nav a {
+  display: block;
+  padding: .5rem;
+  width: auto;
+  font-size:1.25rem;
+}
+
+
+/*
+LOGIN====================================================
+*/
+
+.login {
+  padding-top: 10rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:23em;
+}
+
+.login h2{
+  text-align: center;
+}
+
+.submitbutton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:9em;
+}
+
+/*
+pb_home====================================================
+*/
+
+.pb_home {
+  padding-top: 10rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:23em;
+}
+
+/*
+pg_mypage====================================================
+*/
+
+.pg_mypage {
+  padding-top: 10rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:23em;
+}
+
+/*
+rst_detail====================================================
+*/
+
+.rst_detail {
+  padding-top: 10rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:23em;
+}
+
+/*
+rst_list====================================================
+*/
+
+.rst_list {
+  padding-top: 10rem;
+  display: block;
+  margin-right: auto;
+  width:23em;
+}
+
+/*
+rst_favor====================================================
+*/
+
+.rst_favor {
+  padding-top: 10rem;
+  display: block;
+  margin-right: auto;
+  width:23em;
+}
+
+/*
+rst_add====================================================
+*/
+
+.rst_add {
+  padding-top: 10rem;
+  display: block;
+  margin-right: auto;
+  width:23em;
+}
